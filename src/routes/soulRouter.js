@@ -1,3 +1,4 @@
+require('../../public/js/polyfills.js');
 var express = require('express');
 var db = require('../tempDB');
 var router = express.Router();
@@ -12,7 +13,7 @@ router.route('/')
                 {text:'NPCs',href:'/Souls?filter=NPC'},
                 {text:'Monters',href:'/Souls?filter=Monster'}
             ],
-            soul: db.souls.filter(function(x) {
+            soul: JSON.filter(db.souls, function(x) {
                 return x.category === filter;
             })
         });

@@ -39,6 +39,7 @@ gulp.task('inject', function() {
         directory: './public/lib',
         ignorePath: '../../public'
     };
+
     var injectSrc = gulp.src(['./public/css/*.css','./public/js/*.js'], {read: false});
     var injectOptions = {
         ignorePath: '/public'

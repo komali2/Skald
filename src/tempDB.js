@@ -1,6 +1,6 @@
 var db = {
-    souls: [
-        {
+    souls: {
+        1:{
             category: 'Hero',
             class: 'Ranger',
             name: 'Aragorn',
@@ -36,7 +36,7 @@ var db = {
 
             }
         },
-        {
+        2:{
             category: 'Hero',
             class: 'Warrior',
             name: 'Gimli',
@@ -72,7 +72,7 @@ var db = {
 
             }
         },
-        {
+        3:{
             category: 'Hero',
             class: 'Archer',
             name: 'Legolas',
@@ -108,7 +108,7 @@ var db = {
 
             }
         },
-        {
+        4:{
             category: 'Hero',
             class: 'Ring Bearer',
             name: 'Frodo',
@@ -144,7 +144,7 @@ var db = {
 
             }
         },
-        {
+        5:{
             category: 'NPC',
             class: 'Wizard',
             name: 'Riley the Valiant',
@@ -180,7 +180,7 @@ var db = {
 
             }
         },
-        {
+        6:{
             category: 'NPC',
             class: 'Butt Licker',
             name: 'Caleb the Rotten',
@@ -216,7 +216,7 @@ var db = {
 
             }
         },
-        {
+        7:{
             category: 'Monster',
             class: '',
             name: '',
@@ -252,7 +252,7 @@ var db = {
 
             }
         },
-        {
+        8:{
             category: 'Monster',
             class: '',
             name: '',
@@ -288,7 +288,7 @@ var db = {
 
             }
         },
-        {
+        9:{
             category: 'Monster',
             class: '',
             name: '',
@@ -324,7 +324,7 @@ var db = {
 
             }
         },
-        {
+        10:{
             category: 'Monster',
             class: '',
             name: '',
@@ -360,7 +360,7 @@ var db = {
 
             }
         },
-        {
+        11:{
             category: 'Monster',
             class: '',
             name: '',
@@ -396,7 +396,7 @@ var db = {
 
             }
         },
-        {
+        12:{
             category: 'Monster',
             class: '',
             name: '',
@@ -432,7 +432,7 @@ var db = {
 
             }
         }
-    ]
+    }
 };
 
 module.exports = db;
